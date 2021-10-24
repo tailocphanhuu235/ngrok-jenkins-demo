@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/hello', (req, res) => {
-    res.send('Hello Jenkins');
+app.get('/about', (req, res) => {
+    res.send('Hello Jenkins Pipeline');
 });
 
 app.listen(3000, () => {
