@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/about', (req, res) => {
-    res.send('Hello Jenkins Pipeline New');
+    res.send('Hello Jenkins Pipeline New2');
 });
 
 app.get('/users', (req, res) => {
